@@ -1,5 +1,5 @@
-function favMovie(movie = 'The Room', name = 'world'){
-    console.log(`my name is ${name} and my favorite move is ${movie}.`)
+let favMovie = (movie = 'The Room', name = 'world') => {
+    console.log(`my name is ${name} and my favorite movie is ${movie}.`)
 }
 
-favMovie();
+favMovie('Run with the Wind');
